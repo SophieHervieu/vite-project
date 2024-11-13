@@ -21,14 +21,14 @@ console.log(textesTab);
 
 textesTab.map((p) => {
     p.innerText = "THIS IS SPARTA";
-    p.style = "color: red; cursor: pointer";
+    p.style = "color: #646cffaa; cursor: pointer; font-weight: bold";
 
     p.addEventListener("mouseover", function() {
-        p.style.color = "green";
+        p.style.color = "#171941";
     })
 
     p.addEventListener("mouseout", function() {
-        p.style.color = "red";
+        p.style.color = "#646cffaa";
     })
 
     p.addEventListener("click", function() {
