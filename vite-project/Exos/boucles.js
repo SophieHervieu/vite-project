@@ -20,7 +20,7 @@ console.log(textesTab);
 // TODO : cette fonction fléchée va modifier le innerHTML ou innerText de la variable temporaire
 
 textesTab.map((p) => {
-    p.innerText = "THIS IS SPARTA";
+    p.innerText = "CLICK HERE";
     p.style = "color: #646cffaa; cursor: pointer; font-weight: bold";
 
     p.addEventListener("mouseover", function() {

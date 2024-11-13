@@ -14,7 +14,7 @@
 }
 
 .links {
-  width: 100vw;
+  width: 90vw;
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -34,12 +34,27 @@ body {
   display: flex;
   flex-direction: column;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  min-width: auto;
+  min-height: 120vh;
+}
+
+.boxBar {
+  z-index: 1;
+  width: 100%;
+  border: 5px solid blueviolet;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.bar {
+  height: 21px;
+  background: turquoise;
+  width: 0%;
 }
 
 h1 {
-  font-size: 4.2em;
+  font-size: 5.2em;
   font-weight: lighter;
   line-height: 1.1;
   color: rgb(44, 44, 110);
