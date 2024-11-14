@@ -38,6 +38,12 @@ body {
   min-height: 120vh;
 }
 
+/* .pokemonCard {
+  display: flex;
+  border: 1px solid #242424;
+  text-align: center;
+} */
+
 .boxBar {
   z-index: 1;
   width: 100%;
